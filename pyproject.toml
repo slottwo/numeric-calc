@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "numeric-calc"
+version = "0.1.0"
+description = ""
+authors = ["Pedro Galvão <41028091+slottwo@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "numeric_calc"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
